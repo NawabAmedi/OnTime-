@@ -13,6 +13,7 @@ These are our color swatches:
 - black
 - rgb(225, 240, 247)
 - rgb(198, 219, 228)
+- white
 
 (multiple shades of rgb(225, 240, 247))
 
