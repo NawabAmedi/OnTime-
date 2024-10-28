@@ -2,7 +2,7 @@ Overall Look and Feel of Ontime
 ===============================
 
 The overall look and feel should be minimalist and flat. We will avoid 3d buttons and 3d metal looks.
-The website should be calm and gentle for the user and has a nice visual appeal
+The website should be calm and gentle for the user and has a nice visual appeal.
 
 Colours
 ========
