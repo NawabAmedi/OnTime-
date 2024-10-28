@@ -2,6 +2,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(180deg, rgb(245, 252, 255), rgb(198, 238, 255));
     color: rgb(33, 59, 71);
+
+    margin: 0;
 }
 
 .nav_bar
@@ -19,6 +21,27 @@ body {
     height: 6.25rem;
 }
 
+@media (max-width: 50rem)
+{
+    .nav_bar span a:first-child {
+        display: none;
+    }
+}
+
+@media (max-width: 45rem)
+{
+    .nav_bar span a:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 35rem)
+{
+    .nav_bar span a {
+        display: none;
+    }
+}
+
 .nav_bar span a span
 {
     position: relative;
@@ -33,7 +56,7 @@ body {
 
 .nav_bar span a span:hover
 {
-    background-color: rgb(198, 219, 228);;
+    background-color: rgb(198, 219, 228);
 }
 
 .nav_bar span
@@ -78,4 +101,241 @@ h1 {
 .lgn-btn:active
 {
     border-style: inset;
+}
+
+label
+{
+    font-size: 1.5rem;
+}
+
+form
+{
+    display: flex;
+    margin: 3rem 0 0 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+    row-gap: 1rem;
+}
+
+input
+{
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    height: 2rem;
+    padding: 1rem 0.5rem;
+}
+
+button[type=submit]
+{
+    color: rgb(116, 197, 231);
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 3px;
+    transition-duration: 10;
+    border: 3px solid;
+    transition-duration: 100ms;
+
+    --btn-raise: 2px;
+}
+
+button[type=submit]:hover
+{
+    background-color: rgb(116, 197, 231);
+    color: white;
+    border-color: rgb(116, 197, 231);
+    box-shadow: 0 var(--btn-raise) 0 0 rgb(11, 155, 216);
+    transform: translateY(calc(-1 * var(--btn-raise)));
+}
+
+button[type=submit]:active
+{
+    background-color: rgb(116, 197, 231);
+    color: white;
+    border-color: rgb(116, 197, 231);
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+textarea
+{
+    width: 100%;
+    height: 10rem;
+    resize: vertical;
+}
+
+.headshot
+{
+    border-radius: 100%
+}
+
+.team-section
+{
+    margin: 5rem;
+}
+
+.team-subsection
+{
+    background-image: linear-gradient(90deg, rgb(225, 240, 247), rgb(198, 219, 228));
+    border-radius: 100px;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    overflow-wrap: break-word;
+    grid-auto-flow: column;
+    width: 40rem;
+    min-width: 30rem;
+    box-shadow: 0 1rem 1rem rgb(187, 209, 219);
+    margin: 4rem 0;
+}
+
+.team-subsection:nth-child(2n)
+{
+    margin-left: auto;
+}
+
+.team-member:nth-child(2n)
+{
+    padding: 0 0 0 2rem;
+}
+
+h2
+{
+    font-size: 3rem;
+}
+
+.main
+{
+    margin: 4rem;
+}
+
+.h2-main
+{
+    margin: 4rem;
+}
+
+.features ul
+{
+    height: fit-content;
+}
+
+.features li
+{
+    margin: 4rem 2rem;
+}
+
+.features li:nth-child(1)
+{
+    margin: 0 2rem;
+}
+
+
+.features li:last-child
+{
+    margin-bottom: 0;
+}
+
+.features
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 0;
+    height: 30rem;
+}
+
+.features .features-images svg
+{
+    margin-left: auto;
+}
+
+.features .features-images
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    position: relative;
+    bottom: 7rem;
+    width: 505px;
+}
+
+#bookphoto
+{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.pricing-mainmenu
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    width: 40%;
+    height: calc(100vh - 6.25rem);;
+    background-image: linear-gradient(90deg, rgba(0,0,0,.5), rgba(0,0,0,.2));
+    box-shadow: 5px 0 5px rgba(0,0,0,.2);
+}
+
+.pricing-mainmenu button
+{
+    padding: 1rem 4rem;
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    width: 50%;
+    cursor: pointer;
+}
+
+.pricing-mainmenu button:first-of-type
+{
+    color: black;
+    background-color: aliceblue;
+}
+
+.pricing-mainmenu button:first-of-type:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.pricing-mainmenu button:first-of-type:active
+{
+    background-color: rgb(216, 216, 216);
+}
+
+.pricing-mainmenu button:nth-of-type(2):hover
+{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.pricing-mainmenu button:nth-of-type(2):active
+{
+    color: rgb(216, 216, 216);
+    border-color: rgb(216, 216, 216);
+}
+
+.pricing-mainmenu p
+{
+    color: rgb(189, 199, 208);
+    width: 75%;
+}
+
+.pricing-mainmenu li
+{
+    color: rgb(189, 199, 208);
+}
+
+.pricing-mainmenu ul li::marker
+{
+    color: rgb(189, 199, 208);
 }
