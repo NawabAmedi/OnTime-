@@ -1,0 +1,36 @@
+Overall Look and Feel of Ontime
+===============================
+
+The overall look and feel should be minimalist and flat. We will avoid 3d buttons and 3d metal looks.
+The website should be calm and gentle for the user.
+
+Colours
+========
+For Ontiume, colours expose our personality to the customers and represent that we are calm and pleasing.
+These are our colours:
+
+- aliceblue
+- black
+- rgb(225, 240, 247)
+- rgb(198, 219, 228)
+- white
+
+(multiple shades of rgb(225, 240, 247))
+
+Iconography
+===========
+We will focus on using icons that have a 'flat' two-dimensional design, which adheres to the overall look and feel.
+
+Typography
+==========
+We will be using Segoe UI, or, alternatively, Tahoma, Geneva, Verdana, and, lastly, if none of the others work, sans-serif
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+Buttons
+=======
+Buttons will be flat designed using the chosen colors outlined above. One button will have a very subtle pop-up effect when hovering over that could technically constitute a 3D button, however, it does not ruin the user UI experience. Instead, it entices them to press it; it could be considered having a psychological effect on the user, encouraging him or her to press the button.
+
+
