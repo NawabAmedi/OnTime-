@@ -7,7 +7,7 @@ The website should be calm and gentle for the user.
 Colours
 ========
 For Ontiume, colours expose our personality to the customers and represent that we are calm and pleasing.
-These are our color swatches:
+These are our colours:
 
 - aliceblue
 - black
